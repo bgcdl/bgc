@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0F08E36C-9F18-423D-8F8C-C8C2FACF00F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "neo-vm", "src\neo-vm\neo-vm.csproj", "{6A621185-36A9-4E1A-8D3D-462D19503E32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vm-test", "vm-test\vm-test.csproj", "{5FC90C1A-2F8E-478E-97F2-F5A08AB8C122}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "neo", "..\neo\neo\neo.csproj", "{31554424-778D-4212-948B-DB8DE4F6ACA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "net-core-test", "..\net-core-test\net-core-test\net-core-test.csproj", "{2CA920B8-0AC8-4C5F-89D4-CBCA7164FCB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "neon", "..\neo-compiler\neon\neon.csproj", "{4A07FA93-3942-4F2E-87C4-F805A015D4AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A621185-36A9-4E1A-8D3D-462D19503E32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A621185-36A9-4E1A-8D3D-462D19503E32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A621185-36A9-4E1A-8D3D-462D19503E32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A621185-36A9-4E1A-8D3D-462D19503E32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FC90C1A-2F8E-478E-97F2-F5A08AB8C122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FC90C1A-2F8E-478E-97F2-F5A08AB8C122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FC90C1A-2F8E-478E-97F2-F5A08AB8C122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FC90C1A-2F8E-478E-97F2-F5A08AB8C122}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31554424-778D-4212-948B-DB8DE4F6ACA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31554424-778D-4212-948B-DB8DE4F6ACA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31554424-778D-4212-948B-DB8DE4F6ACA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31554424-778D-4212-948B-DB8DE4F6ACA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CA920B8-0AC8-4C5F-89D4-CBCA7164FCB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CA920B8-0AC8-4C5F-89D4-CBCA7164FCB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CA920B8-0AC8-4C5F-89D4-CBCA7164FCB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CA920B8-0AC8-4C5F-89D4-CBCA7164FCB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A07FA93-3942-4F2E-87C4-F805A015D4AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A07FA93-3942-4F2E-87C4-F805A015D4AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A07FA93-3942-4F2E-87C4-F805A015D4AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A07FA93-3942-4F2E-87C4-F805A015D4AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A621185-36A9-4E1A-8D3D-462D19503E32} = {0F08E36C-9F18-423D-8F8C-C8C2FACF00F7}
+	EndGlobalSection
+EndGlobal
